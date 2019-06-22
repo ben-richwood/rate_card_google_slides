@@ -4,6 +4,7 @@ Node script to generate a Google Slide and populate it with data from Google She
 It requires to have edition privilege on the Google Drive directory where the spreadsheet and the template are located.
 
 This script is largely inspired by Google tutorial [CodeLabs](https://codelabs.developers.google.com/codelabs/slides-api/index.html?index=..%2F..index#0).
+
 For the complete Slides Reference & Documentation: https://developers.google.com/slides/reference/rest/
 
 The 2 required files in your Google Drive directory:
@@ -36,7 +37,7 @@ Both approaches launch the same script at the end. It works as follow:
   2. The script fetches the Google Sheets data
   3. Then it duplicates the `Slide master` presentation (Drive API)
   4. It populates the presentation with the products and features
-5. The file will be named `BLISS Card rates-[date of creation]`
+  5. The file name can be changed in `slides.js` (`SLIDE_TITLE_TEXT` variable).
 
 ### Formatting the spreadsheet
 
@@ -45,7 +46,8 @@ The Google Sheets API returns an array for each line of the range you provide. o
 
 | Category      | Product name  | Product visibility  | Feature name | Feature visibility | Price |
 | ------------- |:-------------:| --------------------| ------------ | ------------------ | ----- |
-| Name          | Name          | 0 or 1 (0 to hide)  | Name         | 0 or 1 (0 to hide) | Number |
+| Name          | Name          | 0 or 1 (1 to hide)  | Name         | 0 or 1 (1 to hide) | Number |
+
 
 ### Additional notes
 
@@ -56,4 +58,4 @@ To easily edit the layout, just tweak the const variables at the top of the `sli
 You can use the slide master to simplify the layout.
 
 ## To improve
-2. Enhance the presentation layout/design
+1. Enhance the presentation layout/design
