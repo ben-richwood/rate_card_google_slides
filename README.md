@@ -14,6 +14,8 @@ The 2 required files in your Google Drive directory:
 
 *Note: the names are not important; only their ID are. Adapt with your values in `variables.js`*
 
+![Technical scheme of the script](https://raw.githubusercontent.com/ben-richwood/rate_card_google_slides/master/images/card_rates_scheme-01.png)
+
 
 ## Usage
 
