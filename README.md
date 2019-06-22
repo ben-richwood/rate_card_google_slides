@@ -33,6 +33,8 @@ Reach the folder where you cloned the repo and run `node app.js`. If you pass th
 
 You can prefer to install the script on a server - such as Heroku or Netlify. Express is installed and can be easily launched. To run Express, input `npm server.js`. Then go to `localhost:3000`. It will launch the script and respond with a confirmation message.
 
+![Generated Presentation after script](https://raw.githubusercontent.com/ben-richwood/rate_card_google_slides/master/images/generated_presentation.png)
+
 
 Both approaches launch the same script at the end. It works as follow:
   1. Call Google OAuth and opens the login page. It records all the auth info in a `service_account_secret.json`
