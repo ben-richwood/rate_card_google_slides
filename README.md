@@ -48,9 +48,9 @@ Both approaches launch the same script at the end. It works as follow:
 Here is how you should format the spreadsheet. Feel free to adapt it.
 The Google Sheets API returns an array for each line of the range you provide. on the `rates.js`, the function `formatPrices()` turns the Array into a JSON; feel free to adapt this function to your needs. For this script, the spreadsheet look like this:
 
-| Category      | Product name  | Product visibility  | Feature name | Feature visibility | Price |
-| ------------- |:-------------:| --------------------| ------------ | ------------------ | ----- |
-| Name          | Name          | 0 or 1 (1 to hide)  | Name         | 0 or 1 (1 to hide) | Number |
+| Category      | Description     | Product name  | Product visibility  | Feature name | Feature visibility | Price  |
+| ------------- |:---------------:|--------------| ------------------- | ------------ | ------------------ | ------ |
+| Name          | Category's blob | Name          | 0 or 1 (1 to hide)  | Name         | 0 or 1 (1 to hide) | Number |
 
 
 ### Additional notes
